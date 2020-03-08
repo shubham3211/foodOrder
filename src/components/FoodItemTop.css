@@ -1,0 +1,17 @@
+.food-image{
+  overflow: hidden;
+}
+
+.food-image img{
+  transition: .3s ease-in-out;
+}
+
+.food-image:hover img{
+  transform: scale(1.1);
+}
+
+.food{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
+}

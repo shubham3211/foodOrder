@@ -1,0 +1,92 @@
+[
+  { 
+    "id": 1,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 2,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 3,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 4,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 5,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 6,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 7,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 8,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 9,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  },
+  {
+    "id": 10,
+    "name": "High-Protein Chole Patty Meal",
+    "image": "https://cdn-images.cure.fit/www-curefit-com/image/upload/w_377,ar_1.33,fl_progressive,f_auto,q_auto/dpr_1/image/singles/eat/meals/EAT4754/primary/3_1.jpg",
+    "type": "veg",
+    "price": "150",
+    "bestseller": "true",
+    "calories": "700"
+  }
+]

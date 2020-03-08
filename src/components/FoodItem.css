@@ -1,0 +1,4 @@
+.food-item:hover{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 7px 21px 3px;
+  transition: .3s ease-in-out;
+}
