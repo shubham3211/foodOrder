@@ -21,32 +21,52 @@ function Bill() {
           <Grid item xs={12}>
             <Grid container>
               <Grid item xs={12}>
-                <Typography align='left' color="textSecondary">Total</Typography>
-                <Typography align="right" color="textSecondary">{total}</Typography>
+                <Box m={2}>
+                  <Grid container justify="space-between">
+                    <Typography display="inline" align='left' color="textSecondary">Total</Typography>
+                    <Typography display="inline" align="right" color="textSecondary">{total}</Typography>
+                  </Grid>
+                </Box>
               </Grid>
               <Grid item xs={12}>
-                <Typography align='left' color="textSecondary">Product Discount</Typography>
-                <Typography align="right" color="textSecondary">{total!=0 ? 10 : 0 }</Typography>
+                <Box m={2}>
+                  <Grid container justify="space-between">
+                    <Typography align='left' color="textSecondary">Product Discount</Typography>
+                    <Typography align="right" color="textSecondary">{total!=0 ? 10 : 0 }</Typography>
+                  </Grid>
+                </Box>
               </Grid>
               <Grid item xs={12}>
-                <Typography align='left' color="textSecondary">Delivery Charges</Typography>
-                <Typography align="right" color="textSecondary">0</Typography>
+                <Box m={2}> 
+                  <Grid container justify="space-between">
+                    <Typography align='left' color="textSecondary">Delivery Charges</Typography>
+                    <Typography align="right" color="textSecondary">0</Typography>
+                  </Grid>
+                </Box>
               </Grid>
               <Grid item xs={12}>
-                <Typography align='left' color="textSecondary">Packing Charges</Typography>
-                <Typography align="right" color="textSecondary">{total!=0 ? 15 : 0 }</Typography>
+                <Box m={2}>
+                  <Grid container justify="space-between">
+                    <Typography align='left' color="textSecondary">Packing Charges</Typography>
+                    <Typography align="right" color="textSecondary">{total!=0 ? 15 : 0 }</Typography>
+                  </Grid>
+                </Box>
               </Grid>
               <Grid item xs={12}>
-                <Typography align='left'>
-                  <Box fontWeight="fontWeightBold">
-                    Total Payable
-                  </Box>
-                </Typography>
-                <Typography align="right">
-                  <Box fontWeight="fontWeightBold">
-                    {total!=0 ? total+25 : 0 }
-                  </Box>
-                </Typography>
+                <Box m={2}>
+                  <Grid container justify="space-between">
+                    <Typography align='left'>
+                      <Box fontWeight="fontWeightBold">
+                        Total Payable
+                      </Box>
+                    </Typography>
+                    <Typography align="right">
+                      <Box fontWeight="fontWeightBold">
+                        {total!=0 ? total+25 : 0 }
+                      </Box>
+                    </Typography>
+                  </Grid>
+                </Box>
               </Grid>
             </Grid>
           </Grid>
