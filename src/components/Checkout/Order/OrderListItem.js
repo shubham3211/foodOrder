@@ -39,7 +39,7 @@ function OrderListItem({food}) {
           </Grid>
           <Grid item xs={8} style={{padding: '0px'}}>
             <Box pl={2}>
-              <Typography variant="subtitle1" color="textSecondary">
+              <Typography variant="subtitle1" color="textSecondary" noWrap>
                 {food.name}
               </Typography>
               <Typography variant="subtitle2">

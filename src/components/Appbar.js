@@ -25,13 +25,16 @@ function Appbar(props) {
                     cursor: 'pointer',
                     width: '70px',
                     textAlign: 'center',
-                    float: 'right'}}>
+                    float: 'right',
+                    cursor: 'pointer'}}>
                   {
                     props.location.pathname != '/checkout' ? 
                       <Link to="/checkout" style={{color: 'white', textDecoration: 'none'}}>
                         Checkout
                       </Link>:
-                      'Thank you'
+                      <span>
+                        Thank you
+                      </span>
                   }
                 </div>
               </Grid>

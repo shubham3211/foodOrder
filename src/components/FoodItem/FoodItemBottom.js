@@ -9,7 +9,7 @@ function FoodItemBottom(props) {
         <Grid item xs={12}>
           <Grid container>
             <Grid item xs={12}>
-              <Typography>
+              <Typography noWrap>
                 {props.name}
               </Typography>
             </Grid>
