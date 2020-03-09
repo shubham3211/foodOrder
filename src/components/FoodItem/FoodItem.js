@@ -2,11 +2,12 @@ import React, {useState, useEffect} from 'react'
 import { Grid } from '@material-ui/core'
 import FoodItemTop from './FoodItemTop';
 import FoodItemBottom from './FoodItemBottom';
-import { useSelectFoodContext } from '../../FoodOrderContext';
+import { useSelectFoodContext, useGetFoodContext } from '../../FoodOrderContext';
 import './FoodItem.css'
 
 function FoodItem(props) {
-  const [quantity, setQuantity] = useState(0);
+  const selectedFoods = useGetFoodContext()
+  const [quantity, setQuantity] = useState(selectedFoods[props.food.id] ? selectedFoods[props.food.id].quantity : 0);
   const setSelectedFoods = useSelectFoodContext();
 
   useEffect(() => {
