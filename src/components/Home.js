@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import FoodList from './FoodList';
 import { Grid } from '@material-ui/core';
 

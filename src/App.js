@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './components/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Checkout from './components/Checkout';
+import Checkout from './components/Checkout/Checkout';
 import {FoodOrderContext} from './FoodOrderContext';
 import Appbar from './components/Appbar';
 

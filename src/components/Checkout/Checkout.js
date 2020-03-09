@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Box } from '@material-ui/core'
 import Bill from './Bill';
-import OrderList from './OrderList';
+import OrderList from './Order/OrderList';
 
 
 function Checkout() {

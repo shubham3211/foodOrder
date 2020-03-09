@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Grid, Typography, Box } from '@material-ui/core'
-import AddButton from './AddButton';
-import { useSelectFoodContext } from '../FoodOrderContext';
+import AddButton from '../../AddButton';
+import { useSelectFoodContext } from '../../../FoodOrderContext';
 
 function OrderListItem({food}) {
   const [quantity, setQuantity] = useState(food.quantity);

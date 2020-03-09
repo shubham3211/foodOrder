@@ -1,5 +1,5 @@
 import React from 'react'
-import FoodItem from './FoodItem';
+import FoodItem from './FoodItem/FoodItem';
 import foodList from '../utils/food.json';
 import Grid from '@material-ui/core/Grid';
 

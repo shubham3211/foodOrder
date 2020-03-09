@@ -1,5 +1,5 @@
 import React from 'react'
-import {useGetFoodContext} from '../FoodOrderContext';
+import {useGetFoodContext} from '../../FoodOrderContext';
 import { Grid, Typography, Divider, Box } from '@material-ui/core';
 
 function getTotal(selectedFoods) {

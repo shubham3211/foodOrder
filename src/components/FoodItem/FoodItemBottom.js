@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, Typography, Box } from '@material-ui/core'
-import AddButton from './AddButton';
+import AddButton from '../AddButton';
 
 function FoodItemBottom(props) {
   return (

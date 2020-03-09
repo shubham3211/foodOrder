@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { Grid } from '@material-ui/core'
 import FoodItemTop from './FoodItemTop';
 import FoodItemBottom from './FoodItemBottom';
-import { useSelectFoodContext } from '../FoodOrderContext';
+import { useSelectFoodContext } from '../../FoodOrderContext';
 import './FoodItem.css'
 
 function FoodItem(props) {
